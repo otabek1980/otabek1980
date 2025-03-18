@@ -12,3 +12,10 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=otabek1980&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/otabek1980/otabek1980/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/otabek1980/otabek1980/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/otabek1980/otabek1980/output/github-snake.svg" />
+</picture>
+
+# Coding time : [![wakatime](https://wakatime.com/badge/user/9bbb3350-4486-40b3-babd-75e87d6c1329.svg)](https://wakatime.com/plugins/status?onboarding=true)
