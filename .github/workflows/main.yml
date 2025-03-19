@@ -12,10 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
 
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk@v3.1.0
+
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
