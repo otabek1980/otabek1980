@@ -2,8 +2,9 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Har kuni yarim tunda ishga tushadi
-  workflow_dispatch:  # Qo'lda ishga tushirishga ruxsat
+    - cron: "0 0 * * *"  # Har kuni yarim tunda ishlaydi
+  workflow_dispatch:      # Qo'lda ishga tushirish imkoniyati
+
 permissions:
   contents: write
 
@@ -14,24 +15,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-
       - name: Generate snake animation
         uses: Platane/snk@v3.1.0
-
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
 
-      - name: Move file to output folder
-        run: |
-          mkdir -p output
-          mv dist/snake.svg output/github-contribution-grid-snake.svg
-
-      - name: Commit and push the snake.svg file
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add output/github-contribution-grid-snake.svg
-          git commit -m "Update snake animation"
-          git push
-          
+      - name: Upload to GitHub Pages
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-animation
+          path: dist/snake.svg
