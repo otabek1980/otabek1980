@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 0 * * *"  # Har kuni yarim tunda ishga tushadi
   workflow_dispatch:  # Qo'lda ishga tushirishga ruxsat
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -30,3 +32,4 @@ jobs:
           git add output/github-contribution-grid-snake.svg
           git commit -m "Update snake animation"
           git push
+          
