@@ -18,8 +18,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
 
-      - name: Upload to GitHub Pages
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-animation
-          path: dist/snake.svg
+      - name: Move file to output folder
+        run: |
+          mkdir -p output
+          mv dist/snake.svg output/github-contribution-grid-snake.svg
+
+      - name: Commit and push the snake.svg file
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add output/github-contribution-grid-snake.svg
+          git commit -m "Update snake animation"
+          git push
