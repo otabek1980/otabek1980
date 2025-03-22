@@ -27,7 +27,7 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=otabek1980&icon=0&color=0)](https://visitcount.itsvg.in)
 
-# Coding time : [![wakatime](https://wakatime.com/badge/user/448640c3-60a0-41cd-bd3d-8f4359c6d297.svg)](https://wakatime.com/@448640c3-60a0-41cd-bd3d-8f4359c6d297)
+# Coding time : [![wakatime](https://wakatime.com/badge/user/448640c3-60a0-41cd-bd3d-8f4359c6d297.svg)]()
 
 ### 🐍 Kelajak sari -  
 <picture>
