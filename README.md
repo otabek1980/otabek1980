@@ -27,9 +27,7 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=otabek1980&icon=0&color=0)](https://visitcount.itsvg.in)
 
-# Coding time : [![wakatime](https://wakatime.com/badge/user/a8fcdf47-d49d-42af-96bf-7ea8c719747a.svg)](https://wakatime.com/@a8fcdf47-d49d-42af-96bf-7ea8c719747a)
-
-### 🐍 Kelajak sari -  
+### ⚡ “Kelajak sari!” - Striving toward the future.  
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/otabek1980/otabek1980/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/otabek1980/otabek1980/output/github-snake.svg" />
