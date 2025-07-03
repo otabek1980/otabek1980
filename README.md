@@ -1,7 +1,7 @@
 ### OTABEK XADJAYEV RASHIDOVICH
 
 # 💫 About Me:
-💬 I'm 18-years old developer from Uzbekistan/Khorezm<br>💫 I like creating Website and Telegram bot and Cybersport<br>
+💬 I'm 18-years old developer from Uzbekistan/Khorezm<br>💫 I like creating Website&Telegram bot and Cybersport<br>
 
 
 ## 🌐 Socials:
